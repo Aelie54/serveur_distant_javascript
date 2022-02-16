@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+body { margin-top: 100px; text-align:center; }
+
+h1 {
+  font: 2em 'Roboto', sans-serif;
+  margin-bottom: 40px;
+}
+
+#loading {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(71, 69, 69, 0.3);
+  border-radius: 50%;
+  border-top-color: rgb(87, 87, 97);
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}

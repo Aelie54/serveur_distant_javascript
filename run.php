@@ -13,7 +13,6 @@ $reponses   = ['error' => 'false'];
 $file_name  = $_POST['file_name'];
 
 
-
 if (isset($_POST['file'])) {
     if ($_POST['file'] === 'undefined') {
         $reponses = 'nonewfiles';
